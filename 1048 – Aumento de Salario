@@ -1,0 +1,36 @@
+x = float(input())
+
+if (x > 0) and (x <= 400):
+    aumento = x * 0.15
+    total = aumento + x
+    print('Novo salario: {:.2f}'.format(total))
+    print('Reajuste ganho: {:.2f}'.format(aumento))
+    print('Em percentual: 15 %')
+
+elif (x > 400) and (x <= 800):
+    aumento = x * 0.12
+    total = aumento + x
+    print('Novo salario: {:.2f}'.format(total))
+    print('Reajuste ganho: {:.2f}'.format(aumento))
+    print('Em percentual: 12 %')
+
+elif (x > 800) and (x <= 1200):
+    aumento = x * 0.10
+    total = aumento + x
+    print('Novo salario: {:.2f}'.format(total))
+    print('Reajuste ganho: {:.2f}'.format(aumento))
+    print('Em percentual: 10 %')
+
+elif (x > 1200) and (x <= 2000):
+    aumento = x * 0.07
+    total = aumento + x
+    print('Novo salario: {:.2f}'.format(total))
+    print('Reajuste ganho: {:.2f}'.format(aumento))
+    print('Em percentual: 7 %')
+
+elif (x > 2000):
+    aumento = x * 0.04
+    total = aumento + x
+    print('Novo salario: {:.2f}'.format(total))
+    print('Reajuste ganho: {:.2f}'.format(aumento))
+    print('Em percentual: 4 %')
