@@ -1,0 +1,51 @@
+C1 = input()
+C2 = input()
+C3 = input()
+
+if C1 == 'vertebrado':
+    if C2 == 'ave':
+        if C3 == 'carnivoro':
+            print('aguia')
+    elif C2 == 'ave':
+        if C3 == 'onivoro':
+            print('pomba')
+    elif C2 == 'mamifero':
+        if C3 == 'onivoro':
+            print('homem')
+    elif C2 == 'mamifero':
+        if C3 == 'herbivoro':
+            print('vaca')
+
+elif C1 == 'invertebrado':
+    if C2 == 'inseto':
+        if C3 == 'hematofago':
+            print('pulga')
+        elif C3 == 'herbivoro':
+            print('lagarta')
+    elif C2 == 'anelideo':
+        if C3 == 'hematofago':
+            print('sanguessuga')
+        elif C3 == 'onivoro':
+            print('minhoca')
+________________________________________________________________________________________________________________________________
+
+a = input()
+b = input()
+c = input()
+
+if a == 'vertebrado' and b == 'ave' and c == 'carnivoro':
+    print('aguia')
+elif a == 'vertebrado' and b == 'ave' and c == 'onivoro':
+    print('pomba')
+elif a == 'vertebrado' and b == 'mamifero' and c == 'onivoro':
+    print('homem')
+elif a == 'vertebrado' and b == 'mamifero' and c == 'herbivoro':
+    print('vaca')
+elif a == 'invertebrado' and b == 'inseto' and c == 'hematofago':
+    print('pulga')
+elif a == 'invertebrado' and b == 'inseto' and c == 'herbivoro':
+    print('lagarta')
+elif a == 'invertebrado' and b == 'anelideo' and c == 'hematofago':
+    print('sanguessuga')
+elif a == 'invertebrado' and b == 'anelideo' and c == 'onivoro':
+    print('minhoca')
