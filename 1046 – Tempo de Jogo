@@ -1,0 +1,10 @@
+a,b = input().split()
+a = int(a)
+b = int(b)
+
+if a < b:
+    total = b - a
+    print('O JOGO DUROU %d HORA(S)' %total)
+else:
+    total = (24 - a) + b
+    print('O JOGO DUROU %d HORA(S)' %total)
